@@ -1,12 +1,3 @@
-'''
-Creates a Member out of Existing Material
-
-Author: Kyle Martin
-Company: Martech Solutions LLC
-
-This script is still under development and is being shared as-is. Author
-reserves no responsibility for errors that may occur due to usage.
-'''
 
 # Startup Code Begin
 import param
