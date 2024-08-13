@@ -11,13 +11,10 @@ def mem_to_mtrl(m1,m2):
     else:
         param.Warning("Index 0 material not main material for this member!!!")
         return
-
     t = mt._as_tuple
     xform = Transform3D.Transform3D(t[0],t[2])
-
     new_mt = model.CopyMaterialToMember(mt,m2,xform)
     model.EraseMember(m1.number)
-
     return
 
 def main():
